@@ -5,6 +5,7 @@ ruby '2.0.0'
 gem 'rails', '4.0.4'
 gem 'bootstrap-sass', '~> 3.1.1.0'
 gem 'sprockets', '2.11.0'
+gem 'bcrypt-ruby', '3.1.2'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
@@ -38,6 +39,7 @@ gem 'turbolinks', '1.1.1'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '1.0.2'
+
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
